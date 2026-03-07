@@ -1,0 +1,7 @@
+Check if a number is even or odd using an if-else statement.
+Determine the greatest among three numbers using nested if statements or if-else-if ladder.
+Display the multiplication table of a given integer using a for or while loop.
+Calculate the sum and average of a series of numbers input from the keyboard, possibly using a loop and user input.
+Check if a year is a leap year.
+Determine if a given number is a Palindrome Number or an Armstrong Number.
+Generate an integer between 1 and 7 and use a switch statement to display the name of the weekday
