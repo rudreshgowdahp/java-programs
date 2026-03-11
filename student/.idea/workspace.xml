@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a0c3e6d-2a6d-4e61-924a-efddc108a651" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9a0c3e6d-2a6d-4e61-924a-efddc108a651" name="Changes" comment="create 1 project and 3 package with fully qualified name">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student/studentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/internal/StudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student/studentResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/internal/StudentResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student/studentperformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/internal/StudentPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student1/StudentExams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/external/StudentExams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student1/studentMarks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/external/StudentMarks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student1/studentSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/external/StudentSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student2/mainRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student2/studentAttendance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student2/studentSports.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student2/studentTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +80,34 @@
       <option name="presentableId" value="Default" />
       <updated>1773207535996</updated>
     </task>
+    <task id="LOCAL-00001" summary="create 1 project and 3 package with fully qualified name">
+      <option name="closed" value="true" />
+      <created>1773221570245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773221570245</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create 1 project and 3 package with fully qualified name">
+      <option name="closed" value="true" />
+      <created>1773225650101</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773225650101</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create 1 project and 3 package with fully qualified name" />
+    <option name="LAST_COMMIT_MESSAGE" value="create 1 project and 3 package with fully qualified name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/thinksworks/student/student2/mainRunner.java</url>
+          <url>file://$PROJECT_DIR$/src/com/thinksworks/student/runner/mainRunner.java</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
