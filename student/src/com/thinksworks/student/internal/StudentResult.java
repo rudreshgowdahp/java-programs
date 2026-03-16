@@ -10,6 +10,6 @@ public class StudentResult {
     }
     public void display(){
         System.out.println("Display  all the method");
-       mathsResult();
+        mathsResult();
     }
 }

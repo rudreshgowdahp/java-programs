@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a0c3e6d-2a6d-4e61-924a-efddc108a651" name="Changes" comment="create 1 project and 3 package with fully qualified name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student/studentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/internal/StudentInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student/studentResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/internal/StudentResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student/studentperformance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/internal/StudentPerformance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student1/StudentExams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/external/StudentExams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student1/studentMarks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/external/StudentMarks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student1/studentSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/external/StudentSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student2/mainRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student2/studentAttendance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student2/studentSports.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/student2/studentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/internal/StudentResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/internal/StudentResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
