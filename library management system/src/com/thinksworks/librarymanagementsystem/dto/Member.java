@@ -34,15 +34,15 @@ public class Member {
         this.email = email;
     }
 
-    public MembershipType getMembership() {
+    public MemberShipType getMembership() {
         return membership;
     }
 
-    public void setMembership(MembershipType membership) {
+    public void setMembership(MemberShipType membership) {
         this.membership = membership;
     }
 
-    public Member(int memberId, String name, String email, MembershipType membership) {
+    public Member(int memberId, String name, String email, MemberShipType membership) {
         this.memberId = memberId;
         this.name = name;
         this.email = email;
