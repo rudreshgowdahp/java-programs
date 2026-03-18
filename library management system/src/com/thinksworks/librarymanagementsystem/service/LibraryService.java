@@ -16,13 +16,14 @@ public class LibraryService {
         System.out.println("Stock:"+book.getStock());
     }
     public  void printMemberDetails(Member member){
+        System.out.println("----------------------------------");
         System.out.println("Id :"+member.getMemerId());
         System.out.println("name:"+member.getName());
         System.out.println("email:"+member.getEmail());
         System.out.println("membership :"+member.getMembership());
     }
     public  void printBorrowRecordDetails(BorrowRecord borrowRecord) {
-        System.out.println("member name:" + borrowRecord.getMember());
+        System.out.println("member name:" + borrowRecord.getMember().getName());
         for (Book book : borrowRecord.getBooks()) {
             System.out.println(book.getTitle());
         }
