@@ -58,12 +58,13 @@ public class Book {
         this.stock = stock;
     }
 
-    public Book(int bookId, String title, String author, double price, int stock) {
+    public Book(int bookId, String title, String author, double price, int stock,BookCategory category) {
         this.bookId = bookId;
         this.title = title;
         this.author = author;
         this.price = price;
         this.stock = stock;
+        this.category = category;
     }
     public double calculateStockValue(){
        return price * stock;
