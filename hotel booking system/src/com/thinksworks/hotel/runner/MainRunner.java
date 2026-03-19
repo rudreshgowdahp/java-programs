@@ -11,7 +11,7 @@ public class MainRunner  {
 
     public static void main(String[] args) {
         Room room = new Room(101,100.0d, RoomType.SINGLE,true);
-        Room room1 = new Room(102,500.0d,RoomType.DOUBLE,false)
+        Room room1 = new Room(102,500.0d,RoomType.DOUBLE,false);
 
         Room[] rooms  = {room,room1};
         Guest guest = new Guest("rudresh",12,900909090l);
