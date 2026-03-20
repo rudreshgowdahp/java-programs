@@ -7,7 +7,7 @@ public class Account {
     private String accountHolderName;
      private double accountBalance;
     private AccountType accountType;
-    private
+
 
     public Account(int accountid, String accountHolderName, double accountBalance ,AccountType accountType) {
         this.accountid = accountid;
