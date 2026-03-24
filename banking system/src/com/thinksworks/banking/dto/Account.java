@@ -5,11 +5,11 @@ import com.thinksworks.banking.enums.AccountType;
 public class Account {
     private int accountid;
     private String accountHolderName;
-     private double accountBalance;
+    private double accountBalance;
     private AccountType accountType;
 
 
-    public Account(int accountid, String accountHolderName, double accountBalance ,AccountType accountType) {
+    public Account(int accountid, String accountHolderName, double accountBalance, AccountType accountType) {
         this.accountid = accountid;
         this.accountHolderName = accountHolderName;
         this.accountBalance = accountBalance;
@@ -31,6 +31,7 @@ public class Account {
     public void setAccountHolderName(String accountHolderName) {
         this.accountHolderName = accountHolderName;
     }
+
     public double getAccountBalance() {
         return accountBalance;
     }
@@ -45,5 +46,18 @@ public class Account {
 
     public void setAccountType(AccountType accountType) {
         this.accountType = accountType;
+    }
+
+    public void credit(double amount) {
+        accountBalance = accountBalance + amount;
+    }
+
+    public void debit(double amount) {
+        if (amount <= accountBalance) {
+            accountBalance = accountBalance - amount;
+        } else {
+            System.out.println("Insufficient balance");
+        }
+
     }
 }

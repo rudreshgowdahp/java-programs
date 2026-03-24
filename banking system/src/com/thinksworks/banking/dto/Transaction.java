@@ -1,18 +1,19 @@
 package com.thinksworks.banking.dto;
 
 import com.thinksworks.banking.enums.AccountType;
+import com.thinksworks.banking.enums.TransactionType;
 
 public class Transaction {
 
     private int accountId;
     private  int transactionId;
-    private AccountType accountType;
+    private TransactionType transactionType;
      private double amount;
 
-    public Transaction(int accountId, int transactionId, AccountType accountType, double amount) {
+    public Transaction(int accountId, int transactionId, TransactionType transactionType, double amount) {
         this.accountId = accountId;
         this.transactionId = transactionId;
-        this.accountType = accountType;
+        this.transactionType = transactionType;
         this.amount = amount;
     }
 
@@ -32,12 +33,12 @@ public class Transaction {
         this.transactionId = transactionId;
     }
 
-    public AccountType getAccountType() {
-        return accountType;
+    public TransactionType getTransactionType() {
+        return transactionType;
     }
 
     public void setAccountType(AccountType accountType) {
-        this.accountType = accountType;
+        this.transactionType = transactionType;
     }
 
     public double getAmount() {

@@ -2,14 +2,14 @@ package com.thinksworks.hotel.dto;
 
 import com.thinksworks.hotel.enums.BookingsStatus;
 
-public class Booking {
+public class BookingDetails {
     private int bookingId;
-    private Guest guest;
+    private Guest[] guest;
     private Room[] rooms;
     private int nights;
     private BookingsStatus bookingsStatus;
 
-    public Booking(int bookingId, Guest guest, Room[] rooms, int nights, BookingsStatus bookingsStatus) {
+    public BookingDetails(int bookingId, Guest[] guest, Room[] rooms, int nights, BookingsStatus bookingsStatus) {
         this.bookingId = bookingId;
         this.guest = guest;
         this.rooms = rooms;
@@ -25,11 +25,11 @@ public class Booking {
         this.bookingId = bookingId;
     }
 
-    public Guest getGuest() {
+    public Guest[] getGuest() {
         return guest;
     }
 
-    public void setGuest(Guest guest) {
+    public void setGuest(Guest[] guest) {
         this.guest = guest;
     }
 
@@ -59,9 +59,10 @@ public class Booking {
     public double calculateTotal(){
         double total =0;
         for (Room room:rooms){
-            total = room.getPrice();
+            System.out.println("Room no:"+ room.getRoomNumber());
+            total =  total+ room.getPrice() *nights;
         }
-        return total * nights;
+        return total ;
     }
 }
 
