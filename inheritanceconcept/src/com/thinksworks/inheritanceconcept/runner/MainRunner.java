@@ -33,5 +33,11 @@ public class MainRunner {
         car.display();
         bike.display();
         truck.display();
+        AI ai = new AI("Ai",30000,"300",10,true);
+        Java java = new Java("Java",20000,"100",20,true);
+        Python python = new Python("Python",50000,"200",30,false);
+        ai.display();
+        java.display();
+        python.display();
     }
 }
