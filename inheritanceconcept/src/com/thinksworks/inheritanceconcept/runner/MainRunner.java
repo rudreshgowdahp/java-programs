@@ -27,5 +27,11 @@ public class MainRunner {
         manager.display();
        Employee employee = new TeamLeader("Manoj",1,98765,"Kamakshi Palya",false);
         employee.display();
+        Car car = new Car("Range rover",2314,"12/3/2028","32134",true);
+        Bike bike = new Bike("KTM",1234,"31/12/2029","5432",false);
+        Truck truck = new Truck("Bharat benz",7654,"4/5/2029","5432",true);
+        car.display();
+        bike.display();
+        truck.display();
     }
 }
