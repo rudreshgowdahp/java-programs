@@ -15,6 +15,7 @@ public class Person {
         this.phone = phone;
     }
     public  void display(){
+        System.out.println();
         System.out.println("Name is:"+name);
         System.out.println("Age is:"+age);
         System.out.println("Gender is:"+address);

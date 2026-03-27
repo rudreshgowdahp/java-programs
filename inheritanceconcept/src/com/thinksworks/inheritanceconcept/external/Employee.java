@@ -7,14 +7,18 @@ public class Employee {
     private String employeeLocation;
     private boolean isComing;
 
+    public Employee() {
+    }
+
     public Employee(String employeeName, int employeeId, long employeePhoneNumber, String employeeLocation, boolean isComing) {
-        employeeName = employeeName;
-        employeeId = employeeId;
-        employeePhoneNumber = employeePhoneNumber;
-        employeeLocation = employeeLocation;
+         this.employeeName = employeeName;
+        this.employeeId = employeeId;
+        this.employeePhoneNumber = employeePhoneNumber;
+        this.employeeLocation = employeeLocation;
         this.isComing = isComing;
     }
     public void  display(){
+        System.out.println();
         System.out.println("EMPLOYEE DETAILS");
         System.out.println("Employee name:"+employeeName);
         System.out.println("Employee id:"+employeeId);

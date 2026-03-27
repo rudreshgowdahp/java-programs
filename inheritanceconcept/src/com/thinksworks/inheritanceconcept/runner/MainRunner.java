@@ -1,5 +1,6 @@
 package com.thinksworks.inheritanceconcept.runner;
 
+import com.thinksworks.inheritanceconcept.external.Employee;
 import com.thinksworks.inheritanceconcept.external.Person;
 import com.thinksworks.inheritanceconcept.internal.*;
 
@@ -24,9 +25,7 @@ public class MainRunner {
         hr.display();
         Manager manager = new Manager("Harsha",432,678999,"Rajajinagar",true);
         manager.display();
-
-
-
-
+       Employee employee = new TeamLeader("Manoj",1,98765,"Kamakshi Palya",false);
+        employee.display();
     }
 }

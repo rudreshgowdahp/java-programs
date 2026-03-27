@@ -16,6 +16,7 @@ public class Device {
     }
 
     public void display(){
+        System.out.println();
         System.out.println("DEVICE DETAILS");
         System.out.println("Brand name:"+brand);
         System.out.println("Cost:"+cost);
