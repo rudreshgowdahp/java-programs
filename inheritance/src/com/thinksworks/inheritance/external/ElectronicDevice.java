@@ -6,9 +6,13 @@ public class ElectronicDevice {
     private boolean isThere;
     private String id;
 
-     public ElectronicDevice(){
-        System.out.println("no arguments constructor in Electronic device ");
+    public ElectronicDevice(String name, int number, boolean isThere, String id) {
+        Name = name;
+        this.number = number;
+        this.isThere = isThere;
+        this.id = id;
     }
+}
 
     public String getName() {
         return Name;
