@@ -6,4 +6,10 @@ public class Ticket {
     private String ticketDate;
     private int size;
 
+    public Ticket(int ticket, int price, String ticketDate, int size) {
+        this.ticket = ticket;
+        this.price = price;
+        this.ticketDate = ticketDate;
+        this.size = size;
+    }
 }
