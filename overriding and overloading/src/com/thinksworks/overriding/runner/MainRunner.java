@@ -1,7 +1,7 @@
 package com.thinksworks.overriding.runner;
 
 import com.thinksworks.overriding.external.Person;
-import com.thinksworks.overriding.external.PersonDetails;
+import com.thinksworks.overriding.external.Phone;
 import com.thinksworks.overriding.internal.*;
 
 public class MainRunner {
@@ -28,7 +28,8 @@ public class MainRunner {
         police.role();
         student.role();
         teacher.role();
-        PersonDetails personDetails = new PersonDetails("Ravi",12,"Laggere",5.10d,53);
+        Phone phone = new Phone();
+        phone.phoneDetails("vivo",20000,"laggere",12,256);
 
 
 
