@@ -30,6 +30,7 @@ public class MainRunner {
         teacher.role();
         Phone phone = new Phone();
         phone.phoneDetails("vivo",20000,"laggere",12,256);
+        doctor.role2();
 
 
 
