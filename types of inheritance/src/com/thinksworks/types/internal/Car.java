@@ -1,11 +1,9 @@
 package com.thinksworks.types.internal;
 
-import com.thinksworks.types.external.Vehicle;
+import com.thinksworks.types.external.FourWheeler;
 
-public class Car extends Vehicle {
-     public Car(){
-        super();
-        System.out.println("This vehicle is car");
+class Car extends FourWheeler {
+     public  Car() {
+        System.out.println(" 4 Wheeler Vehicle is a Car");
     }
-
 }
