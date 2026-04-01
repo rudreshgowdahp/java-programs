@@ -1,10 +1,8 @@
 package com.thinksworks.types.runner;
 
 import com.thinksworks.types.external.FourWheeler;
-import com.thinksworks.types.internal.Chef;
-import com.thinksworks.types.internal.Mobile;
-import com.thinksworks.types.internal.Student;
-import com.thinksworks.types.internal.Teacher;
+import com.thinksworks.types.external.Parent;
+import com.thinksworks.types.internal.*;
 
 import javax.rmi.CORBA.Stub;
 
@@ -15,5 +13,15 @@ public class MainRunner {
         Chef chef = new Chef();
         Student student = new Student();
         Teacher teacher = new Teacher(); // hierarchical inheritance
+
+        Parent parent = new Child(); //  upcasting
+        parent.name = "Rudresh";
+        System.out.println("Name is :"+parent.name);
+        parent.method();
+        Child child = (Child)parent; // downcasting
+        child.id = 13;
+        System.out.println("Id is :"+child.id);
+        child.method();
+
     }
 }
