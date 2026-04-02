@@ -22,6 +22,7 @@ public class MainRunner {
         child.id = 13;
         System.out.println("Id is :"+child.id);
         child.method();
+        parent.instanceMethod();
 
     }
 }
