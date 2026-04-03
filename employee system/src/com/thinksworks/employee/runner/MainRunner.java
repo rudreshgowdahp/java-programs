@@ -8,6 +8,13 @@ import com.thinksworks.employee.internal.Tester;
 public class MainRunner {
     public static void main(String[] args) {
         Employee employee = new Developer("Likith");
+        if (employee instanceof Developer){
+            Developer developer = (Developer) employee;
+            developer.writeCode();
+        }
+        else {
+            System.out.println("Invalid cast");
+        }
         Employee employee1 = new Manager("Rudresh");
         Employee employee2 = new Tester("Sathish");
         employee.work();
@@ -19,4 +26,5 @@ public class MainRunner {
         // class cast exception
         // reason :Object is actually Employee, not Developer. JVM prevents invalid cast.
     }
+
 }
