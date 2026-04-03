@@ -2,6 +2,7 @@ package com.thinksworks.employee.runner;
 
 import com.thinksworks.employee.external.Employee;
 import com.thinksworks.employee.internal.Developer;
+import com.thinksworks.employee.internal.Intern;
 import com.thinksworks.employee.internal.Manager;
 import com.thinksworks.employee.internal.Tester;
 
@@ -17,6 +18,9 @@ public class MainRunner {
         }
         Employee employee1 = new Manager("Rudresh");
         Employee employee2 = new Tester("Sathish");
+        Employee employee4 = new Intern("Gagan");
+        employee4.work();
+
         employee.work();
         employee1.work();
         employee2.work();
