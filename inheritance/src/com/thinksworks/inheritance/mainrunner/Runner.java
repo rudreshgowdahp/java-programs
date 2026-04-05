@@ -10,6 +10,8 @@ public class Runner {
         Teacher  teacher = new Teacher();
         Clothes clothes = new Clothes();
         Mobile mobile = new Mobile();
+        Chef chef  = new Chef();
+
 
     }
 }
