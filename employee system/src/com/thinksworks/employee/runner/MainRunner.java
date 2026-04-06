@@ -30,5 +30,7 @@ public class MainRunner {
         // class cast exception
         // reason :Object is actually Employee, not Developer. JVM prevents invalid cast.
     }
+    Employee employee = new Employee("RUdra");
+
 
 }
