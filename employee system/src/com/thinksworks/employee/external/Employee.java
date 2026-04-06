@@ -9,7 +9,4 @@ public class Employee {
     public  void work(){
         System.out.println(name+" is working");
     }
-    public void logIn(){
-        System.out.println("Log in time is 9:30 ");
-    }
 }
