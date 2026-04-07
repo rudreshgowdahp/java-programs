@@ -24,7 +24,7 @@ public class MainRunner {
         child.method();
         parent.instanceMethod();
         Child2 child2 = new Child2();
-        child2.method();
+
 
     }
 }
