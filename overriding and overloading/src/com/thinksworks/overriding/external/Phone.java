@@ -9,7 +9,8 @@ public class Phone {
         System.out.println("Name is:"+name);
     }
       void phoneDetails(String name, int cost){
-        System.out.println("Name is :"+name +"Age is:"+cost);
+
+          System.out.println("Name is :"+name +"Age is:"+cost);
     }
      void phoneDetails(String name, int cost, String location){
         System.out.println("Name  is :"+name +"Age is:"+cost+"Location is:"+location);
