@@ -1,4 +1,4 @@
-package com.thinksworks.device.external;
+package com.thinksworks.device.multipleinheritance;
 
 import com.thinksworks.device.business.Delivery;
 import com.thinksworks.device.business.Order;

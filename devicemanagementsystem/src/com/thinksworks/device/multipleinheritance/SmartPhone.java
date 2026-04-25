@@ -1,4 +1,4 @@
-package com.thinksworks.device.external;
+package com.thinksworks.device.multipleinheritance;
 
 import com.thinksworks.device.functional.Camera;
 import com.thinksworks.device.functional.Gps;
