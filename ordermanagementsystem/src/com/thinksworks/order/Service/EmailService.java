@@ -1,8 +1,8 @@
 package com.thinksworks.order.Service;
 
-public class EmailService {
-
-    public void sendEmail(){
-        System.out.println("Email sent");
+public class EmailService implements NotificationService{
+    @Override
+    public void sendNotification() {
+        System.out.println("Send to email");
     }
 }
