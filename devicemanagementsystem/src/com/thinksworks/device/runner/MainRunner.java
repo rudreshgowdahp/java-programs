@@ -1,10 +1,7 @@
 package com.thinksworks.device.runner;
 
 import com.thinksworks.device.hybridinheritance.*;
-import com.thinksworks.device.multipleinheritance.ECommerceApp;
-import com.thinksworks.device.multipleinheritance.OnlinePaymentSystem;
-import com.thinksworks.device.multipleinheritance.PrinterMachine;
-import com.thinksworks.device.multipleinheritance.SmartPhones;
+import com.thinksworks.device.multipleinheritance.*;
 
 public class MainRunner {
     public static void main(String[] args) {
@@ -50,25 +47,9 @@ public class MainRunner {
         smartPhones.navigate();
         smartPhones.clickPhoto();
         smartPhones.playMusic();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        SmartWatch smartWatch = new SmartWatch();
+        smartWatch.batteryStatus();
+        smartWatch.connectBluetooth();
+        smartWatch.sendNotification();
     }
 }
