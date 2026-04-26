@@ -3,6 +3,7 @@ package com.thinksworks.device.runner;
 import com.thinksworks.device.hybridinheritance.*;
 import com.thinksworks.device.multipleinheritance.ECommerceApp;
 import com.thinksworks.device.multipleinheritance.OnlinePaymentSystem;
+import com.thinksworks.device.multipleinheritance.PrinterMachine;
 
 public class MainRunner {
     public static void main(String[] args) {
@@ -40,6 +41,12 @@ public class MainRunner {
         onlinePaymentSystem.makePayment();
         onlinePaymentSystem.processRefund();
         onlinePaymentSystem.generateBill();
+        PrinterMachine printerMachine = new PrinterMachine();
+        printerMachine.connectWifi();
+        printerMachine.printDocument();
+        printerMachine.scanDocument();
+
+
 
 
 
