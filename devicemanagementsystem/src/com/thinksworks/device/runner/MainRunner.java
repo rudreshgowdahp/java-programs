@@ -4,6 +4,7 @@ import com.thinksworks.device.hybridinheritance.*;
 import com.thinksworks.device.multipleinheritance.ECommerceApp;
 import com.thinksworks.device.multipleinheritance.OnlinePaymentSystem;
 import com.thinksworks.device.multipleinheritance.PrinterMachine;
+import com.thinksworks.device.multipleinheritance.SmartPhones;
 
 public class MainRunner {
     public static void main(String[] args) {
@@ -45,6 +46,10 @@ public class MainRunner {
         printerMachine.connectWifi();
         printerMachine.printDocument();
         printerMachine.scanDocument();
+        SmartPhones smartPhones = new SmartPhones();
+        smartPhones.navigate();
+        smartPhones.clickPhoto();
+        smartPhones.playMusic();
 
 
 

@@ -4,7 +4,7 @@ import com.thinksworks.device.functional.Camera;
 import com.thinksworks.device.functional.Gps;
 import com.thinksworks.device.functional.MusicPlayer;
 
-public class SmartPhone implements Camera, MusicPlayer, Gps {
+public class SmartPhones implements Camera, MusicPlayer, Gps {
     @Override
     public void clickPhoto() {
         System.out.println("SmartPhone Camera");
