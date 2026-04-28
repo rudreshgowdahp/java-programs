@@ -51,5 +51,6 @@ public class MainRunner {
         smartWatch.batteryStatus();
         smartWatch.connectBluetooth();
         smartWatch.sendNotification();
+        System.out.println("Rudresh");
     }
 }
