@@ -1,5 +1,5 @@
 package com.thinksworks.device.business;
 
-public interface Tracking {
+public interface  Tracking {
     void track();
 }

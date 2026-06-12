@@ -30,8 +30,5 @@ public class Registration {
         }
 
     }
-    public void printRegisterStudent(Student[] students){
-        for ()
-    }
 
 }

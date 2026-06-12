@@ -1,5 +1,5 @@
 package com.thinksworks.device.devicefeature;
 
-public interface MicroPhone {
+public interface   MicroPhone {
     void recordAudio();
 }

@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a0c3e6d-2a6d-4e61-924a-efddc108a651" name="Changes" comment="create 1 project and 3 package with fully qualified name">
+      <change beforePath="$PROJECT_DIR$/../Object/src/com/thinksworks/object/external/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Object/src/com/thinksworks/object/external/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Object/src/com/thinksworks/object/runner/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Object/src/com/thinksworks/object/runner/MainRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../devicemanagementsystem/src/com/thinksworks/device/business/Tracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../devicemanagementsystem/src/com/thinksworks/device/business/Tracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../devicemanagementsystem/src/com/thinksworks/device/devicefeature/MicroPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../devicemanagementsystem/src/com/thinksworks/device/devicefeature/MicroPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../devicemanagementsystem/src/com/thinksworks/device/devicefeature/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../devicemanagementsystem/src/com/thinksworks/device/devicefeature/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../devicemanagementsystem/src/com/thinksworks/device/hybridinheritance/AtmSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../devicemanagementsystem/src/com/thinksworks/device/hybridinheritance/AtmSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/thinksworks/student/internal/StudentResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinksworks/student/internal/StudentResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../university course registration system/src/com/thinksworks/university/service/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../university course registration system/src/com/thinksworks/university/service/Registration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

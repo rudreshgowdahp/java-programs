@@ -1,8 +1,8 @@
 package com.thinksworks.device.hybridinheritance;
 
 import com.thinksworks.device.devicefeature.Speaker;
-import com.thinksworks.device.functional.Gps;
-import com.thinksworks.device.functional.Notification;
+import com.thinksworks.device.functional.*;
+import com.thinksworks.device.multipleinheritance.OnlinePaymentSystem;
 
 import javax.sound.midi.Receiver;
 
@@ -21,4 +21,10 @@ public class AtmSystem extends Device implements Gps, Notification, Speaker {
     public void playSound() {
         System.out.println("ATM speaker");
     }
-}
+
+    public static void main(String[] args) {
+        Payment payment = new OnlinePaymentSystem();
+        payment.makePayment();
+        }
+    }
+
