@@ -12,6 +12,7 @@ public class MainRunner {
         }
         else{
             System.out.println("nope");
+            System.out.println("Rudra");
         }
     }
 
