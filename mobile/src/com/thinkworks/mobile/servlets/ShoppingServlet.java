@@ -14,6 +14,7 @@ public class ShoppingServlet extends GenericServlet {
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         String customerName = servletRequest.getParameter("customerName");
         System.out.println(customerName);
+        System.out.println("RUdra");
         String email = servletRequest.getParameter("email");
         System.out.println(email);
         String phone = servletRequest.getParameter("phone");
