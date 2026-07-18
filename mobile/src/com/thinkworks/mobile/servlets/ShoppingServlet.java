@@ -15,6 +15,7 @@ public class ShoppingServlet extends GenericServlet {
         String customerName = servletRequest.getParameter("customerName");
         System.out.println(customerName);
         System.out.println("RUdra");
+        System.out.println("Ruiftra");
         String email = servletRequest.getParameter("email");
         System.out.println(email);
         String phone = servletRequest.getParameter("phone");
